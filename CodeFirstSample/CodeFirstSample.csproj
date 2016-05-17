@@ -56,6 +56,14 @@
     <Compile Include="Migrations\201605170043005_InitialCreate.Designer.cs">
       <DependentUpon>201605170043005_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605170112097_AddUrl.cs" />
+    <Compile Include="Migrations\201605170112097_AddUrl.Designer.cs">
+      <DependentUpon>201605170112097_AddUrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605170115370_AddUser.cs" />
+    <Compile Include="Migrations\201605170115370_AddUser.Designer.cs">
+      <DependentUpon>201605170115370_AddUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +75,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201605170043005_InitialCreate.resx">
       <DependentUpon>201605170043005_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605170112097_AddUrl.resx">
+      <DependentUpon>201605170112097_AddUrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605170115370_AddUser.resx">
+      <DependentUpon>201605170115370_AddUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
